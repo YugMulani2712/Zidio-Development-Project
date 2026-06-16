@@ -1,0 +1,43 @@
+
+name: RetailPulse CI-CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Upgrade pip
+        run: python -m pip install --upgrade pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check project files
+        run: |
+          test -f README.md
+          test -f requirements.txt
+          test -f Dockerfile
+          test -f app/main.py
+          test -f app/utils.py
+          test -f app/pages/1_Sales_Dashboard.py
+          test -f app/pages/2_Customer_Dashboard.py
+          test -f app/pages/3_Forecast_Dashboard.py
+          test -f app/pages/4_Inventory_Dashboard.py
+          test -f app/pages/5_Monitoring_Dashboard.py
+
+      - name: Import check
+        run: python -m py_compile app/main.py app/utils.py

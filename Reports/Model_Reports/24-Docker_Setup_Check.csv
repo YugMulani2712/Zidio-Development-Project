@@ -1,0 +1,5 @@
+File,Path,Status
+Dockerfile,..\Dockerfile,✅ Available
+.dockerignore,..\.dockerignore,✅ Available
+requirements.txt,..\requirements.txt,✅ Available
+Streamlit main.py,..\app\main.py,✅ Available

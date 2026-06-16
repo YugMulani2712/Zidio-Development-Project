@@ -1,0 +1,4 @@
+RunDate,DriftScore,DriftedColumns,TotalColumns,RetrainRequired,Decision,Threshold
+2026-06-12 21:49:30,0.33,3,9,False,Skip retraining,
+2026-06-12 22:53:00,0.33,3,9,,Skip retraining,0.5
+2026-06-15 09:49:09,0.33,3,9,,Skip retraining,0.5

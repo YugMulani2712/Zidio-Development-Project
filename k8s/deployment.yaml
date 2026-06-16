@@ -1,0 +1,21 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: retailpulse-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: retailpulse
+  template:
+    metadata:
+      labels:
+        app: retailpulse
+    spec:
+      containers:
+        - name: retailpulse-container
+          image: retailpulse:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8501

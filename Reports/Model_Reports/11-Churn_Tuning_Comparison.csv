@@ -1,0 +1,3 @@
+Model,AUC_ROC,AUC_PR
+XGBoost Baseline,0.7971,0.775
+XGBoost Tuned,0.8129,0.772

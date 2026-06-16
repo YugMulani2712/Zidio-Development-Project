@@ -1,0 +1,10 @@
+﻿Module,Target,Achieved,Reason
+✅ Hybrid Forecasting,Improve forecast accuracy,MAPE 20.57%,Hybrid model improved forecasting performance
+✅ Churn Prediction,Build churn model,XGBoost completed,Customer churn prediction model was created and evaluated
+✅ Inventory Optimization,Reduce understock,25.90% understock reduction,Safety stock and reorder point reduced shortage risk
+✅ Drift Detection,Monitor data drift,Drift score 0.33,Drift was below retraining threshold
+✅ Retraining Pipeline,Automate retraining decision,Python script + DAG completed,Pipeline can check drift and decide retraining
+⚠️ LSTM Forecasting,Better SKU-level forecasting,WAPE ~70%,SKU demand has many zero-sales days and sudden spikes
+⚠️ Hybrid Forecasting,MAPE ≤ 12%,MAPE 20.57%,"Hybrid improved results, but target was not reached due to demand spikes and limited tuning"
+⚠️ Churn Prediction,AUC ≥ 0.88,AUC 0.8129,"After removing leakage features, only transaction-based features were available"
+⚠️ Inventory Overstock,Reduce overstock,Not achieved,Extra safety stock reduced stockouts but increased overstock

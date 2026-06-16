@@ -1,0 +1,8 @@
+Page,Path,Purpose,Status
+Main Dashboard,..\app\main.py,Project overview and KPIs,✅ Available
+Utils File,..\app\utils.py,Reusable data loading functions,✅ Available
+Sales Dashboard,..\app\pages\1_Sales_Dashboard.py,Sales KPIs and trends,✅ Available
+Customer Dashboard,..\app\pages\2_Customer_Dashboard.py,Segments and churn overview,✅ Available
+Forecast Dashboard,..\app\pages\3_Forecast_Dashboard.py,SKU demand trend and model summary,✅ Available
+Inventory Dashboard,..\app\pages\4_Inventory_Dashboard.py,"EOQ, safety stock and reorder point",✅ Available
+Monitoring Dashboard,..\app\pages\5_Monitoring_Dashboard.py,Drift score and retraining logs,✅ Available

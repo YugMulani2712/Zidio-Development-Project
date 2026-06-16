@@ -1,0 +1,7 @@
+Day,Task,Status,Main_Result
+1,EDA,Completed,EDA reports created
+2,Cleaning + RFM,Completed,Cleaned sales and RFM datasets created
+3,Customer Segmentation,Completed,K-Means K=4 with business segments
+4,Time-Series Preparation,Completed,Daily and SKU-level demand datasets created
+5,Prophet Baseline,Completed,MAPE: 23.81%
+6,LSTM Baseline,Completed,WAPE: 70.04%

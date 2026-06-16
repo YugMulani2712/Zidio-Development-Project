@@ -1,0 +1,2 @@
+Model,AUC_ROC,AUC_PR,CV_AUC_Mean,CV_AUC_Std,Target_Met
+XGBoost Churn,0.793,0.7664,0.8029,0.0145,False

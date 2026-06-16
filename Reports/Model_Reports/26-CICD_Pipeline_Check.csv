@@ -1,0 +1,7 @@
+Component,Path,Status
+GitHub Actions Folder,..\.github\workflows,✅ Available
+CI Pipeline File,..\.github\workflows\ci-cd.yml,✅ Available
+README.md,..\README.md,✅ Available
+requirements.txt,..\requirements.txt,✅ Available
+Dockerfile,..\Dockerfile,✅ Available
+Streamlit Main App,..\app\main.py,✅ Available

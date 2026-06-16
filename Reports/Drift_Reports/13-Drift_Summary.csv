@@ -1,0 +1,10 @@
+Feature,P_Value,Drifted
+units_sold,0.0429,True
+revenue,0.0794,False
+n_invoices,0.0027,True
+units_roll_7,0.1802,False
+units_roll_14,0.1214,False
+units_roll_30,0.0089,True
+units_lag_1,0.1057,False
+units_lag_7,0.1214,False
+units_lag_14,0.4416,False

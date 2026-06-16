@@ -1,0 +1,10 @@
+Item,Path,Status
+README.md,..\README.md,✅ Ready
+requirements.txt,..\requirements.txt,✅ Ready
+Streamlit main.py,..\app\main.py,✅ Ready
+utils.py,..\app\utils.py,✅ Ready
+Sales Dashboard,..\app\pages\1_Sales_Dashboard.py,✅ Ready
+Customer Dashboard,..\app\pages\2_Customer_Dashboard.py,✅ Ready
+Forecast Dashboard,..\app\pages\3_Forecast_Dashboard.py,✅ Ready
+Inventory Dashboard,..\app\pages\4_Inventory_Dashboard.py,✅ Ready
+Monitoring Dashboard,..\app\pages\5_Monitoring_Dashboard.py,✅ Ready
