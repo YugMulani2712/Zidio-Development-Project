@@ -1,0 +1,2 @@
+Data/Raw/*.csv filter=lfs diff=lfs merge=lfs -text
+Data/Processed/retail_sales_cleaned.csv filter=lfs diff=lfs merge=lfs -text

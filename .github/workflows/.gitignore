@@ -1,0 +1,10 @@
+Data/Raw/
+Data/Processed/retail_sales_cleaned.csv
+*.pkl
+*.joblib
+mlflow.db
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+env/
+venv/
