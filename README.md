@@ -8,12 +8,6 @@ The project uses retail transaction data to convert raw sales records into actio
 
 ---
 
-## Live Demo
-
-**Streamlit App:**
-https://dharmmaniya-retailpulse.streamlit.app/
-
----
 
 ## Project Objectives
 
@@ -237,11 +231,7 @@ Run locally:
 streamlit run app/main.py
 ```
 
-Live deployment:
 
-```text
-https://dharmmaniya-retailpulse.streamlit.app/
-```
 
 ---
 
@@ -317,10 +307,10 @@ RetailPulse was deployed using Streamlit Community Cloud.
 | Item       | Details                                        |
 | ---------- | ---------------------------------------------- |
 | Platform   | Streamlit Community Cloud                      |
-| Repository | Dharm124/retailpulse-analytics                 |
+| Repository | YugMulani2712/Zidio-Development-Project        |
 | Branch     | main                                           |
 | Entry file | app/main.py                                    |
-| Live URL   | https://dharmmaniya-retailpulse.streamlit.app/ |
+  
 
 AWS/GCP deployment was not performed because it requires additional billing setup, container registry configuration, and cloud Kubernetes resources. Streamlit Cloud was selected as the most practical deployment option for this project.
 
@@ -378,7 +368,10 @@ http://localhost:8501
 ## Author
 
 **Dharm Maniya**
+**Yug Mulani**
+
 B.Tech Artificial Intelligence and Data Science
+B.Tech Computer Science & Design
 Machine Learning & Data Science Project
 
 ---
@@ -389,8 +382,3 @@ RetailPulse demonstrates a complete retail analytics and machine learning workfl
 
 The project covers data cleaning, customer analytics, demand forecasting, churn prediction, inventory optimization, monitoring, Docker containerization, CI/CD automation, and Streamlit Cloud deployment.
 
-The final dashboard is publicly available at:
-
-```text
-https://dharmmaniya-retailpulse.streamlit.app/
-```
