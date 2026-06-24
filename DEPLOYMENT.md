@@ -9,7 +9,3 @@ Streamlit Community Cloud was selected because RetailPulse is a Streamlit-based 
 
 ---
 
-## Live Demo URL
-
-```text
-https://dharmmaniya-retailpulse.streamlit.app/
